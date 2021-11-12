@@ -7,8 +7,8 @@
   <string name="shortcuts_title">Cunntasan puist</string>
   <string name="unread_widget_label">Post gun leughadh</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">Google, luchd-coiseachd nan con K-9.</string>
-  <string name="app_copyright_fmt">Còir-lethbhreac 2008-<xliff:g>%s</xliff:g> Luchd-coiseachd nan con K-9. Cuid dhen chòir-lethbhreac 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
+  <string name="app_authors">Google, luchd-coiseachd nan con myKmail.</string>
+  <string name="app_copyright_fmt">Còir-lethbhreac 2008-<xliff:g>%s</xliff:g> Luchd-coiseachd nan con myKmail. Cuid dhen chòir-lethbhreac 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
   <string name="source_code">An còd tùsail</string>
   <string name="app_license">Fo cheadachas Apache, tionndadh 2.0.</string>
   <string name="about_project_title">Pròiseact le tùs fosgailte</string>
@@ -24,7 +24,7 @@
   <string name="changelog_recent_changes_title">Na tha ùr</string>
   <!--Welcome message-->
   <string name="welcome_message_title">Fàilte gu aplacaid a’ phuist</string>
-  <string name="accounts_welcome">&lt;p&gt; Tha aplacaid a’ phuist ’na aplacaid shaor agus chumhachdach airson post-d air Android. &lt;/p&gt;&lt;p&gt; Tha na gleusan leasaichte aige a’ gabhail a-staigh: &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Put post slighe IMAP IDLE&lt;/li&gt; &lt;li&gt;Dèanadas nas fheàrr&lt;/li&gt; &lt;li&gt;Ath-fhaidhleadh theachdaireachdan&lt;/li&gt; &lt;li&gt;Eàrr-sgrìobhaidhean puist-d&lt;/li&gt; &lt;li&gt;Bcc dhut fhèin&lt;/li&gt; &lt;li&gt;Fo-sgrìobhaidhean phasganan&lt;/li&gt; &lt;li&gt;Sioncronachadh nam pasgan air fad&lt;/li&gt; &lt;li&gt;Rèiteachadh seòladh nam freagairt&lt;/li&gt; &lt;li&gt;Ath-ghoiridean a’ mheur-chlàir&lt;/li&gt; &lt;li&gt;Taic nas fheàrr airson IMAP&lt;/li&gt; &lt;li&gt;Sàbhaladh de cheanglachain air SD&lt;/li&gt; &lt;li&gt;Falamhachadh an sgudail&lt;/li&gt; &lt;li&gt;Seòrsachadh theachdaireachdan&lt;/li&gt; &lt;li&gt;…is mòran a bharrachd&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; Thoir an aire nach cuir aplacaid a’ phuist taic ri cuid mhòr de chunntasan saora Hotmail agus mar iomadh prògram puist-d eile, tachraidh rudan neònach nuair a bhruidhneas e ri Microsoft Exchange. &lt;/p&gt;&lt;p&gt; Fàilte air bugaichean, com-pàirteachas, iarrtasan airson gleusan ùra is ceistean aig &lt;a href=https://github.com/k9mail/k-9/&gt;https://github.com/k9mail/k-9/&lt;/a&gt;. &lt;/p&gt;</string>
+  <string name="accounts_welcome">&lt;p&gt; Tha aplacaid a’ phuist ’na aplacaid shaor agus chumhachdach airson post-d air Android. &lt;/p&gt;&lt;p&gt; Tha na gleusan leasaichte aige a’ gabhail a-staigh: &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Put post slighe IMAP IDLE&lt;/li&gt; &lt;li&gt;Dèanadas nas fheàrr&lt;/li&gt; &lt;li&gt;Ath-fhaidhleadh theachdaireachdan&lt;/li&gt; &lt;li&gt;Eàrr-sgrìobhaidhean puist-d&lt;/li&gt; &lt;li&gt;Bcc dhut fhèin&lt;/li&gt; &lt;li&gt;Fo-sgrìobhaidhean phasganan&lt;/li&gt; &lt;li&gt;Sioncronachadh nam pasgan air fad&lt;/li&gt; &lt;li&gt;Rèiteachadh seòladh nam freagairt&lt;/li&gt; &lt;li&gt;Ath-ghoiridean a’ mheur-chlàir&lt;/li&gt; &lt;li&gt;Taic nas fheàrr airson IMAP&lt;/li&gt; &lt;li&gt;Sàbhaladh de cheanglachain air SD&lt;/li&gt; &lt;li&gt;Falamhachadh an sgudail&lt;/li&gt; &lt;li&gt;Seòrsachadh theachdaireachdan&lt;/li&gt; &lt;li&gt;…is mòran a bharrachd&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; Thoir an aire nach cuir aplacaid a’ phuist taic ri cuid mhòr de chunntasan saora Hotmail agus mar iomadh prògram puist-d eile, tachraidh rudan neònach nuair a bhruidhneas e ri Microsoft Exchange. &lt;/p&gt;&lt;p&gt; Fàilte air bugaichean, com-pàirteachas, iarrtasan airson gleusan ùra is ceistean aig &lt;a href=https://github.com/k9mail/myKmail/&gt;https://github.com/k9mail/myKmail/&lt;/a&gt;. &lt;/p&gt;</string>
   <!--Default signature-->
   <string name="default_signature">-- Chaidh a chur le post /e/.</string>
   <!--General strings that include the app name-->

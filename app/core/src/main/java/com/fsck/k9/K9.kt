@@ -493,7 +493,7 @@ object K9 : EarlyInit {
     const val MAX_ATTACHMENT_DOWNLOAD_SIZE = 128 * 1024 * 1024
 
     /**
-     * How many times should K-9 try to deliver a message before giving up until the app is killed and restarted
+     * How many times should myKmail try to deliver a message before giving up until the app is killed and restarted
      */
     const val MAX_SEND_ATTEMPTS = 5
 

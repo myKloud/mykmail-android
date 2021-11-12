@@ -16,7 +16,7 @@ Low level code for dealing with internet mail protocols
 
 ## plugins
 
-Additional, standalone, libraries used by K-9
+Additional, standalone, libraries used by myKmail
 
 ![modules](Modules.png)
 
