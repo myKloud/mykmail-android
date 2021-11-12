@@ -100,13 +100,13 @@ class SettingsListFragment : Fragment(), ItemTouchCallback {
                     addAccount(account, isDraggable)
                 }
 
-                addAction(
-                    text = getString(R.string.add_account_action),
-                    navigationAction = R.id.action_settingsListScreen_to_addAccountScreen,
-                    icon = R.attr.iconSettingsAccountAdd
-                )
+//                addAction(
+//                    text = getString(R.string.add_account_action),
+//                    navigationAction = R.id.action_settingsListScreen_to_addAccountScreen,
+//                    icon = R.attr.iconSettingsAccountAdd
+//                )
 
-                NewSetupUiHack.addAction(this)
+//                NewSetupUiHack.addAction(this)
             }
 
             addSection(title = getString(R.string.settings_list_backup_category)) {
@@ -123,19 +123,19 @@ class SettingsListFragment : Fragment(), ItemTouchCallback {
                 )
             }
 
-            addSection(title = getString(R.string.settings_list_miscellaneous_category)) {
-                addAction(
-                    text = getString(R.string.about_action),
-                    navigationAction = R.id.action_settingsListScreen_to_aboutScreen,
-                    icon = R.attr.iconSettingsAbout
-                )
-
-                addUrlAction(
-                    text = getString(R.string.user_forum_title),
-                    url = getString(R.string.user_forum_url),
-                    icon = R.attr.iconUserForum
-                )
-            }
+//            addSection(title = getString(R.string.settings_list_miscellaneous_category)) {
+//                addAction(
+//                    text = getString(R.string.about_action),
+//                    navigationAction = R.id.action_settingsListScreen_to_aboutScreen,
+//                    icon = R.attr.iconSettingsAbout
+//                )
+//
+//                addUrlAction(
+//                    text = getString(R.string.user_forum_title),
+//                    url = getString(R.string.user_forum_url),
+//                    icon = R.attr.iconUserForum
+//                )
+//            }
         }
 
         itemAdapter.setNewList(listItems)

@@ -40,7 +40,8 @@ class FoldersViewModel(
         }
         .map { (accountNumber, displayFolders) ->
             FolderList(
-                unifiedInbox = createDisplayUnifiedInbox(),
+                //createDisplayUnifiedInbox()
+                unifiedInbox = null,
                 accountId = accountNumber + 1,
                 folders = displayFolders
             )

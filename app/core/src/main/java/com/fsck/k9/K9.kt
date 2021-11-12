@@ -307,7 +307,7 @@ object K9 : EarlyInit {
         isShowAnimations = storage.getBoolean("animations", true)
         isUseVolumeKeysForNavigation = storage.getBoolean("useVolumeKeysForNavigation", false)
         isUseVolumeKeysForListNavigation = storage.getBoolean("useVolumeKeysForListNavigation", false)
-        isShowUnifiedInbox = storage.getBoolean("showUnifiedInbox", true)
+        isShowUnifiedInbox = storage.getBoolean("showUnifiedInbox", false)
         isShowStarredCount = storage.getBoolean("showStarredCount", false)
         isMessageListSenderAboveSubject = storage.getBoolean("messageListSenderAboveSubject", false)
         isShowMessageListStars = storage.getBoolean("messageListStars", true)
