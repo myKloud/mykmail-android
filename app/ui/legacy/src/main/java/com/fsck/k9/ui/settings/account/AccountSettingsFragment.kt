@@ -93,7 +93,7 @@ class AccountSettingsFragment : PreferenceFragmentCompat(), ConfirmationDialogFr
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
-        inflater.inflate(R.menu.account_settings_option, menu)
+//        inflater.inflate(R.menu.account_settings_option, menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
