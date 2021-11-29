@@ -7,8 +7,8 @@
   <string name="shortcuts_title">Cyfrifon K-9</string>
   <string name="unread_widget_label">K-9 Heb eu Darllen</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Hawlfraint 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Hawlfraint Cyfrannau 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
+  <string name="app_authors">The kmail team</string>
+  <string name="app_copyright_fmt">Hawlfraint 2022-<xliff:g>%s</xliff:g> The kmail team. Hawlfraint Cyfrannau 2022-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
   <string name="source_code">Cod ffynhonnell</string>
   <string name="app_license">Trwydded Apache, Fersiwn 2.0</string>
   <string name="about_project_title">Prosiect Cod Agored</string>

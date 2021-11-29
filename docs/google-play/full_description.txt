@@ -1,4 +1,4 @@
-myKmail Mail is an open source email client with support for multiple accounts, search, IMAP push email, multi-folder sync, flagging, filing, signatures, BCC-self, PGP/MIME & more!
+kmail is an open source email client with support for multiple accounts, search, IMAP push email, multi-folder sync, flagging, filing, signatures, BCC-self, PGP/MIME & more!
 
 myKmail supports IMAP, POP3 and Exchange 2003/2007 (with WebDAV).
 

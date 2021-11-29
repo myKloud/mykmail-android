@@ -1,1 +1,1 @@
-myKmail Mail is a 100% free and open source email client for Android.
+kmail is a 100% free and open source email client for Android.

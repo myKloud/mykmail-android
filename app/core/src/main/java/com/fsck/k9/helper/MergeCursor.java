@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The K-9 Dog Walkers
+ * Copyright (C) 2022 the kmail developer
  * Copyright (C) 2006 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,7 +28,6 @@ import android.database.DataSetObserver;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-
 
 /**
  * This class can be used to combine multiple {@link Cursor}s into one.
@@ -66,14 +65,15 @@ public class MergeCursor implements Cursor {
      */
     private final Comparator<Cursor> mComparator;
 
-
     /**
      * Constructor
      *
      * @param cursors
-     *         The list of cursors this {@code MultiCursor} should combine.
+     *                   The list of cursors this {@code MultiCursor} should
+     *                   combine.
      * @param comparator
-     *         A comparator that is used to decide in what order the individual cursors are merged.
+     *                   A comparator that is used to decide in what order the
+     *                   individual cursors are merged.
      */
     public MergeCursor(Cursor[] cursors, Comparator<Cursor> comparator) {
         mCursors = cursors.clone();
@@ -155,7 +155,8 @@ public class MergeCursor implements Cursor {
 
     @Override
     public int getCount() {
-        // CursorLoaders seem to call getCount() a lot. So we're caching the aggregated count.
+        // CursorLoaders seem to call getCount() a lot. So we're caching the aggregated
+        // count.
         if (mCount == -1) {
             int count = 0;
             for (Cursor cursor : mCursors) {

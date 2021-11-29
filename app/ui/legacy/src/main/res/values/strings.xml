@@ -32,10 +32,10 @@
 
 
     <!-- Welcome message -->
-    <string name="welcome_message_title">Welcome to myKmail Mail</string>
+    <string name="welcome_message_title">Welcome to kmail</string>
     <string name="accounts_welcome"><![CDATA[
 <p>
-myKmail Mail is a powerful free email client for Android.
+kmail is a powerful free email client for Android.
 </p><p>
 Its improved features include:
 </p>
@@ -66,11 +66,11 @@ Please submit bug reports, contribute new features and ask questions at
 
 
     <!-- Default signature -->
-    <string name="default_signature">-- \nSent from my Android device with myKmail Mail. Please excuse my brevity.</string>
+    <string name="default_signature">-- \nSent from my Android device with kmail. Please excuse my brevity.</string>
 
 
     <!-- General strings that include the app name -->
-    <string name="account_delete_dlg_instructions_fmt">The account \"<xliff:g id="account">%s</xliff:g>\" will be removed from myKmail Mail.</string>
+    <string name="account_delete_dlg_instructions_fmt">The account \"<xliff:g id="account">%s</xliff:g>\" will be removed from kmail.</string>
 
 
 
@@ -84,7 +84,7 @@ Please submit bug reports, contribute new features and ask questions at
     <string name="delete_messages_label">Delete Emails</string>
     <string name="delete_messages_desc">Allows this application to delete your Emails.</string>
 
-    <string name="about_title">About myKmail Mail</string>
+    <string name="about_title">About kmail</string>
     <string name="accounts_title">Accounts</string>
     <string name="folders_title">Folders</string>
     <string name="advanced">Advanced</string>

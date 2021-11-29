@@ -7,9 +7,9 @@
   <string name="shortcuts_title">K-9 Konten</string>
   <string name="unread_widget_label">K-9 Ungelesen</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">\u00a9 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers.
-Teile \u00a9 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
+  <string name="app_authors">The kmail team</string>
+  <string name="app_copyright_fmt">\u00a9 2022-<xliff:g>%s</xliff:g> The kmail team.
+Teile \u00a9 2022-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
   <string name="source_code">Quellcode</string>
   <string name="app_license">Apache-Lizenz, Version 2.0</string>
   <string name="about_project_title">Open Source Projekt</string>

@@ -8,7 +8,7 @@
   <string name="unread_widget_label">K-9 Nelasīts</string>
   <!--Used in the about dialog-->
   <string name="app_authors">K-9 Suņa Staigātāji</string>
-  <string name="app_copyright_fmt">Autortiesības 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Daļējas autortiesības 2006-<xliff:g>%s</xliff:g> Android atvērtā koda projekts.</string>
+  <string name="app_copyright_fmt">Autortiesības 2022-<xliff:g>%s</xliff:g> The kmail team. Daļējas autortiesības 2022-<xliff:g>%s</xliff:g> Android atvērtā koda projekts.</string>
   <string name="source_code">Avota kods</string>
   <string name="app_license">Apache licence, Versija 2.0</string>
   <string name="about_project_title">Atvērtā koda projekts</string>

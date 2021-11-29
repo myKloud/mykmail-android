@@ -7,8 +7,8 @@
   <string name="shortcuts_title">حسابات K-9</string>
   <string name="unread_widget_label">رسائل K-9 غير المقروءة</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">فريق The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">حقوق النشر محفوظة 2008 - <xliff:g>%s</xliff:g> The K-9 Dog Walkers. جزء من حقوق النشر محفوظة 2006 - <xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">فريق The kmail team</string>
+  <string name="app_copyright_fmt">حقوق النشر محفوظة 2022 - <xliff:g>%s</xliff:g> The kmail team. جزء من حقوق النشر محفوظة 2022 - <xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="source_code">الكود المصدري</string>
   <string name="app_license">Apache License, Version 2.0</string>
   <string name="about_project_title">مشروع مفتوح المصدر</string>

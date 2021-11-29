@@ -1,4 +1,4 @@
-myKmail Mail is an open source email client that works with basically every email provider.
+kmail is an open source email client that works with basically every email provider.
 
 <b>Features</b>
 
@@ -14,11 +14,11 @@ Install the app <a href="https://f-droid.org/packages/org.sufficientlysecure.key
 
 <b>Support</b>
 
-If you're having trouble with myKmail Mail, ask for help in our <a href="https://forum.k9mail.app">support forum</a>.
+If you're having trouble with kmail, ask for help in our <a href="https://forum.k9mail.app">support forum</a>.
 
 
 <b>Want to help?</b>
 
-myKmail Mail is a community developed project. If you're interested in helping to improve the app, please join us!
+kmail is a community developed project. If you're interested in helping to improve the app, please join us!
 You can find our bug tracker, source code, and wiki at <a href="https://github.com/k9mail/myKmail">https://github.com/k9mail/myKmail</a>.
 We're always happy to welcome new developers, designers, documenters, translators, bug triagers and friends.

@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The K-9 Dog Walkers
+ * Copyright 2022 The kmail team
  *
  * Based on ShowcaseView (https://github.com/amlcurran/ShowcaseView)
  * Copyright 2014 Alex Curran

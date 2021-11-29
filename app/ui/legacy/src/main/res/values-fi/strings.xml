@@ -7,8 +7,8 @@
   <string name="shortcuts_title">K-9-tilit</string>
   <string name="unread_widget_label">K-9-lukematon</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Tekijänoikeudet 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Osittaiset tekijänoikeudet -<xliff:g>%s</xliff:g> Androidin avoimen lähdekoodin hanke.</string>
+  <string name="app_authors">The kmail team</string>
+  <string name="app_copyright_fmt">Tekijänoikeudet 2022-<xliff:g>%s</xliff:g> The kmail team. Osittaiset tekijänoikeudet -<xliff:g>%s</xliff:g> Androidin avoimen lähdekoodin hanke.</string>
   <string name="source_code">Lähdekoodi</string>
   <string name="app_license">Apache-lisenssi, versio 2.0</string>
   <string name="about_project_title">Avoimen lähdekoodin projekti</string>

@@ -13,7 +13,7 @@ public class HtmlSignatureRemoverTest {
         String html = "This is the body text" +
                 "<br>" +
                 "-- <br>" +
-                "Sent from my Android device with myKmail Mail. Please excuse my brevity.";
+                "Sent from my Android device with kmail. Please excuse my brevity.";
 
         String withoutSignature = HtmlSignatureRemover.stripSignature(html);
 

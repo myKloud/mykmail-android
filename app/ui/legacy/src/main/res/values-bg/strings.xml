@@ -7,8 +7,8 @@
   <string name="shortcuts_title">K-9 Профили</string>
   <string name="unread_widget_label">K-9 Непрочетени</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Правата запазени 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Част от правата 2006-<xliff:g>%s</xliff:g> на Android Open Source Project.</string>
+  <string name="app_authors">The kmail team</string>
+  <string name="app_copyright_fmt">Правата запазени 2022-<xliff:g>%s</xliff:g> The kmail team. Част от правата 2022-<xliff:g>%s</xliff:g> на Android Open Source Project.</string>
   <string name="source_code">Изходен код</string>
   <string name="app_license">Apache License, Version 2.0</string>
   <string name="about_project_title">Проект с отворен код</string>

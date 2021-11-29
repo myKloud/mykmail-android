@@ -1,1 +1,1 @@
-myKmail Mail
+kmail

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The K-9 Dog Walkers
+ * Copyright (C) 2012 The kmail team
  * Copyright (C) 2011 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,14 +17,12 @@
 
 package com.fsck.k9.mail.store.imap;
 
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 import com.fsck.k9.mail.Flag;
 import timber.log.Timber;
-
 
 /**
  * Utility methods for use with IMAP.
@@ -44,9 +42,10 @@ class ImapUtility {
      * </pre>
      *
      * @param set
-     *         The sequence set string as received by the server.
+     *            The sequence set string as received by the server.
      *
-     * @return The list of IDs as strings in this sequence set. If the set is invalid, an empty
+     * @return The list of IDs as strings in this sequence set. If the set is
+     *         invalid, an empty
      *         list is returned.
      */
     public static List<String> getImapSequenceValues(String set) {
@@ -79,9 +78,10 @@ class ImapUtility {
      * </pre>
      *
      * @param range
-     *         The range string as received by the server.
+     *              The range string as received by the server.
      *
-     * @return The list of IDs as strings in this range. If the range is not valid, an empty list
+     * @return The list of IDs as strings in this range. If the range is not valid,
+     *         an empty list
      *         is returned.
      */
     public static List<String> getImapRangeValues(String range) {
@@ -90,7 +90,7 @@ class ImapUtility {
             if (range != null) {
                 int colonPos = range.indexOf(':');
                 if (colonPos > 0) {
-                    long first  = Long.parseLong(range.substring(0, colonPos));
+                    long first = Long.parseLong(range.substring(0, colonPos));
                     long second = Long.parseLong(range.substring(colonPos + 1));
                     if (is32bitValue(first) && is32bitValue(second)) {
                         if (first < second) {
@@ -137,17 +137,17 @@ class ImapUtility {
      * Encode a string to be able to use it in an IMAP command.
      *
      * "A quoted string is a sequence of zero or more 7-bit characters,
-     *  excluding CR and LF, with double quote (<">) characters at each
-     *  end." - Section 4.3, RFC 3501
+     * excluding CR and LF, with double quote (<">) characters at each
+     * end." - Section 4.3, RFC 3501
      *
      * Double quotes and backslash are escaped by prepending a backslash.
      *
      * @param str
-     *         The input string (only 7-bit characters allowed).
+     *            The input string (only 7-bit characters allowed).
      *
      * @return The string encoded as quoted (IMAP) string.
      */
-    //TODO use a literal string
+    // TODO use a literal string
     public static String encodeString(String str) {
         return "\"" + str.replace("\\", "\\\\").replace("\"", "\\\"") + "\"";
     }
@@ -185,7 +185,7 @@ class ImapUtility {
         }
         StringBuilder sb = new StringBuilder();
         boolean firstTime = true;
-        for (Object token: tokens) {
+        for (Object token : tokens) {
             if (firstTime) {
                 firstTime = false;
             } else {

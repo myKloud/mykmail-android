@@ -59,9 +59,9 @@ import static org.mockito.Mockito.when;
 
 @SuppressWarnings("WeakerAccess")
 public class MessageViewInfoExtractorTest extends K9RobolectricTest {
-    public static final String BODY_TEXT = "myKmail Mail rocks :>";
-    public static final String BODY_TEXT_HTML = "myKmail Mail rocks :&gt;";
-    public static final String BODY_TEXT_FLOWED = "myKmail Mail rocks :> \r\nflowed line\r\nnot flowed line";
+    public static final String BODY_TEXT = "kmail rocks :>";
+    public static final String BODY_TEXT_HTML = "kmail rocks :&gt;";
+    public static final String BODY_TEXT_FLOWED = "kmail rocks :> \r\nflowed line\r\nnot flowed line";
     public static final String SUBJECT = "sabject";
     public static final String PROTECTED_SUBJECT = "protected subject";
 
@@ -127,7 +127,7 @@ public class MessageViewInfoExtractorTest extends K9RobolectricTest {
 
         String expectedHtml =
                 "<pre dir=\"auto\" class=\"k9mail\">" +
-                "myKmail Mail rocks :&gt;" +
+                "kmail rocks :&gt;" +
                 "</pre>";
 
         assertEquals(BODY_TEXT, container.text);
@@ -150,11 +150,11 @@ public class MessageViewInfoExtractorTest extends K9RobolectricTest {
         MessageExtractor.findViewablesAndAttachments(message, outputViewableParts, outputNonViewableParts);
         ViewableExtractedText container = messageViewInfoExtractor.extractTextFromViewables(outputViewableParts);
 
-        String expectedText = "myKmail Mail rocks :> flowed line\r\n" +
+        String expectedText = "kmail rocks :> flowed line\r\n" +
                 "not flowed line";
         String expectedHtml =
                 "<pre dir=\"auto\" class=\"k9mail\">" +
-                        "myKmail Mail rocks :&gt; flowed line<br>not flowed line" +
+                        "kmail rocks :&gt; flowed line<br>not flowed line" +
                         "</pre>";
 
         assertEquals(expectedText, container.text);
@@ -163,7 +163,7 @@ public class MessageViewInfoExtractorTest extends K9RobolectricTest {
 
     @Test
     public void testSimpleHtmlMessage() throws MessagingException {
-        String bodyText = "<strong>myKmail Mail</strong> rocks :&gt;";
+        String bodyText = "<strong>kmail</strong> rocks :&gt;";
 
         // Create text/plain body
         TextBody body = new TextBody(bodyText);
